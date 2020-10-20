@@ -258,6 +258,7 @@ td.file-td {
     }
      .topnav input[type=text]{
         font-size:12px;
+       padding: 10px;
     }
 }
 @media (min-width: 450px) and (max-width: 750px) {
