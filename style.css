@@ -256,6 +256,9 @@ td.file-td {
     .page .left-section .left-heading{
         margin-right: 5px !important;
     }
+     .topnav input[type=text]{
+        font-size:12px;
+    }
 }
 @media (min-width: 450px) and (max-width: 750px) {
    .topnav .icons a{
