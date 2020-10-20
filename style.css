@@ -162,8 +162,10 @@ a.nav-link.active {
     display:inline-block;
 }
 .page{
-    padding:30px 0;
     color:#5EBCC7;
+}
+.filter{
+    margin-bottom:30px;
 }
 .page .left-section .left-heading{
     margin-right:30px;
@@ -173,7 +175,7 @@ a.nav-link.active {
     padding: 5px 10px;
     border-radius: 5px;
     display: inline-block;
-    margin: 10px;
+    margin: 0 10px;
 }
 .table-section td img {
     width:30px;
