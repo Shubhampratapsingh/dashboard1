@@ -232,3 +232,96 @@ td.file-td {
     font-size: 26px;
     font-weight: bold;
 }
+@media only screen 
+   and (max-width : 768px) {
+   .topnav .icons a{
+       margin: 5px !important;
+       line-height: 35px !important;
+   }
+   .topnav .search-container,
+    .topnav .search-container input{
+        width: 100% !important;
+    }
+    .icons{
+        width:100%;
+        justify-content: center;
+    }
+    .page .right-section,
+    .page .left-section{
+        width:100%;
+        text-align: center;
+    }
+    .page .left-section .left-heading{
+        margin-right: 5px !important;
+    }
+}
+@media (min-width: 450px) and (max-width: 750px) {
+   .topnav .icons a{
+       margin: 5px 0 !important;
+       text-align:center;
+   }
+   .topnav .search-container,
+    .topnav .search-container input{
+        width:100%;
+    }
+    .topnav .icons{
+        width:100%;
+        display: block !important;
+    }
+    .icons a{
+        background-color: white;
+        border-radius:25px;
+        border:1px solid #ccc;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .topnav .icons a{
+       margin: 5px !important;
+       line-height: 30px !important;
+   }
+   .topnav .search-container,
+    .topnav .search-container input{
+        width:100%;
+    }
+    .topnav .icons{
+        width:100%;
+        justify-content: center;
+    }
+    .page .right-section,
+    .page .left-section{
+        width:100%;
+        text-align: center;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1280px) 
+{
+    .topnav .search-container,
+    .topnav .search-container input{
+        width:100%;
+    }
+    .topnav .icons{
+        width:100%;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 600px){
+    .topnav .icons a{
+       margin: 5px 0 !important;
+       line-height: 20px !important;
+       text-align:center;
+   }
+   .topnav .search-container,
+    .topnav .search-container input{
+        width:100%;
+    }
+    .topnav .icons{
+        width:100%;
+        display: block !important;
+    }
+    .icons a{
+        background-color: white;
+        border-radius:25px;
+        border:1px solid #ccc;
+    }
+}
