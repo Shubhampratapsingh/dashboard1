@@ -330,4 +330,7 @@ td.file-td {
         border-radius:25px;
         border:1px solid #ccc;
     }
+  .topnav .fa.fa-search{
+      top:10px;
+    }
 }
