@@ -260,6 +260,9 @@ td.file-td {
         font-size:12px;
        padding: 10px;
     }
+    .section-two{
+      padding:10px !important;
+    }
 }
 @media (min-width: 450px) and (max-width: 750px) {
    .topnav .icons a{
@@ -278,6 +281,9 @@ td.file-td {
         background-color: white;
         border-radius:25px;
         border:1px solid #ccc;
+    }
+   .section-two{
+      padding:10px !important;
     }
 
 }
@@ -332,6 +338,9 @@ td.file-td {
     }
   .topnav .fa.fa-search{
       top:10px;
+    }
+  .section-two{
+      padding:10px !important;
     }
 }
 @media only screen 
