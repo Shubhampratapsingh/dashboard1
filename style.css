@@ -334,3 +334,40 @@ td.file-td {
       top:10px;
     }
 }
+@media only screen 
+   and (max-width : 320px) {
+   .search-container form i{
+       display:none !important;
+   }
+   .icons a{
+       padding:5px;
+   }
+   .my-task span{
+       display:block;
+   }
+   .my-task{
+       text-align:center;
+   }
+   .my-task kbd{
+       display:none;
+   }
+   .page .right-section p{
+       margin:0 2px;
+   }
+   .ro-review .fa-caret-down{
+       display:none;
+   }
+   .heading .right{
+       float:none;
+       text-align: center;
+       color: black;
+       background-color: unset;
+   }
+   .heading .left h2{
+       text-align:center;
+       display: block !important;
+   }
+   .heading .left{
+       display:block !important;
+   }
+}
