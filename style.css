@@ -370,4 +370,7 @@ td.file-td {
    .heading .left{
        display:block !important;
    }
+     .section-two{
+       padding:10px 0 !important;
+   }
 }
