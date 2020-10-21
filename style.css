@@ -430,3 +430,14 @@ tr.ckeditor td{
 .sample-toolbar p img{
   margin:0 15px !important;
 }
+tr.three-image img{
+    margin-left: -10px;
+    background-color: black;
+}
+tr.three-image  span{
+    font-size:12px;
+    margin-left: 5px;
+}
+tr.three-image i.fa-star-half{
+    color:#D4AF37;
+}
