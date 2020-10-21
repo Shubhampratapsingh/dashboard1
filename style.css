@@ -383,3 +383,50 @@ td.file-td {
        padding:10px 0 !important;
    }
 }
+tr.ckeditor td{
+    padding-right:0;
+    padding-left:0;
+}
+.ckeditor .summary span{
+    background-color:#ee8644;
+    border-radius:20px;
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size:13px;
+    padding:5px 10px;
+}
+.ckeditor td:nth-child(3){
+    color:#ee8644;
+    font-size:13px;
+    font-weight:bold;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.editor{
+  border:solid 1px #ccc;
+  padding: 20px;
+}
+.sample-toolbar{
+  border:solid 1px #ddd;
+    background:#f4f4f4;
+  padding: 5px;
+  border-radius:3px;
+}
+.sample-toolbar > span{
+    cursor:pointer;
+}
+.sample-toolbar > span:hover{
+  text-decoration:underline;
+}
+.sample-toolbar p{
+  background-color: unset !important;
+  color: black !important;
+  font-weight: bold !important;
+  display: block !important;
+  text-align:center;
+}
+.sample-toolbar p img{
+  margin:0 15px !important;
+}
