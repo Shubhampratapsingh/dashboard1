@@ -101,6 +101,20 @@
         <td colspan="2" class="file-td">see matching files</td><td><i class="fa fa-ellipsis-v"></i></td>
         
       </tr>
+	    <tr class="ckeditor">
+        <td></td>
+        <td colspan="4"><div class="sample-toolbar">
+    <p><img src="https://cdn4.iconfinder.com/data/icons/hipster-items-cartoon/512/val71_14-512.png">Add a comment...</p>
+    <a href="javascript:void(0)" onclick="format('bold')"><span class="fa fa-bold fa-fw"></span></a>
+    <a href="javascript:void(0)" onclick="format('italic')"><span class="fa fa-italic fa-fw"></span></a>
+    <a href="javascript:void(0)" onclick="format('insertunorderedlist')"><span class="fa fa-list fa-fw"></span></a>
+    <a href="javascript:void(0)" onclick="setUrl()"><span class="fa fa-link fa-fw"></span></a>
+    <span><input id="txtFormatUrl" placeholder="url" class="form-control"></span>
+</div>
+<div class="editor" id="sampleeditor" contenteditable="true"></div>
+</td>
+<td>view file</td><td colspan="2" class="summary"><span>view summary</span></td>
+      </tr>
     </tbody>
   </table></div>
 
@@ -111,5 +125,22 @@
   </div>
   
 </div>
+	<script>
+    window.addEventListener('load', function(){
+      document.getElementById('sampleeditor').setAttribute('contenteditable', 'true');
+      document.getElementById('sampleeditor2').setAttribute('contenteditable', 'true');
+        });
+
+    function format(command, value) {
+      document.execCommand(command, false, value);
+    }
+
+    function setUrl() {
+      var url = document.getElementById('txtFormatUrl').value;
+      var sText = document.getSelection();
+      document.execCommand('insertHTML', false, '<a href="' + url + '" target="_blank">' + sText + '</a>');
+      document.getElementById('txtFormatUrl').value = '';
+    }
+  </script>
 </body>
 </html>
